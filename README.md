@@ -23,6 +23,6 @@ All text, links, projects, experience, awards and certificates live in `src/data
 | `projects/<name>.jpg` | Project screenshots; set `image: '<name>'` on a project |
 | `certificates/<name>.jpg` + `<name>-thumb.jpg` | Certificate viewer and gallery thumbnails; set `image: '<name>'` on a certificate |
 
-## Before going live
+## Live site
 
-- In `index.html`, change `og:image` and `twitter:image` to the absolute URL of `og.jpg` on your domain.
+https://varsha-portfolio-eosin.vercel.app (deployed on Vercel). If the domain changes, update `og:url`, `og:image`, `twitter:image` and the canonical link in `index.html`.
